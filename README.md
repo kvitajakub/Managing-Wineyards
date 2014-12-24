@@ -1,27 +1,14 @@
 # Managing Wineyards
 
-TODO
-<!--
-Real-time image filters on video. Like blur, sharpen, median, Canny filter...
+Application for managing wineyards, connected to Oracle database as backend. Using spatial data 
+for map objects as wine rows, ponds and roads, pictures for images of wines, both with extensions 
+of Oracle db, with queries created on top of it, including work with temporal data.
 
-Application runs with Python 2, OpenCV 2.4 a NumPy 1.8.
+It was created as project for course about different types of databases and that is the main goal of this app.
 
-You can download libraries from:
-http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
-    version: numpy-MKL-1.8.1.win32-py2.7.exe
-
-http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
-    version: opencv-python-2.4.9.win32-py2.7.exe
-
-
-Projekt byl vytvoren v Eclipse, nejjednodussi spusteni je 
-pres otevreni adresare s projektem jako novy projekt v Eclipse.
-Pri jinem zpracovani je potreba prilinkovat knihovny v adresari
-resources.
-
-Projekt se spousti spustenim tridy Main v baliku pdb03.
-    
--->
+Application is commited as Eclipse project, which is easiest way to open it and run it. Code created needs
+libraries included in [resources](resources) directory. Also application is not working without being connected 
+to the database, all the time it runs.
 
 December 2014
 
